@@ -10,6 +10,7 @@ namespace HumanResourceManagementSystem.Models
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
+
     /// <summary>
     /// Criterion class is a construct with custom types, it contains the elements for an evlauation.
     /// </summary>

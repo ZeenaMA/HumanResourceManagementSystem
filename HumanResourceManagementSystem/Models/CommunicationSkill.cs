@@ -10,6 +10,7 @@ namespace HumanResourceManagementSystem.Models
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
+
     /// <summary>
     /// CommunicationSkill class is a construct with custom types, this class contains all skills of an employee.
     /// </summary>

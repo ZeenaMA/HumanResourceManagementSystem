@@ -10,6 +10,7 @@ namespace HumanResourceManagementSystem.Models
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
+
     /// <summary>
     /// Evaluation class is a construct with custom types, it represents the evlauation performed by/ belog to an employee based on criteria.
     /// </summary>

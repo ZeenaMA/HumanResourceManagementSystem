@@ -10,6 +10,7 @@ namespace HumanResourceManagementSystem.Models
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
+
     /// <summary>
     /// Salary class is a construct with custom types, this class contains the salaries of an employee.
     /// </summary>

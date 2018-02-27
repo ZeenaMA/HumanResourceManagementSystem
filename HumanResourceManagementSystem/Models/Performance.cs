@@ -10,6 +10,7 @@ namespace HumanResourceManagementSystem.Models
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
+
     /// <summary>
     /// Performance class is a construct with custom types, it is used for the creation of reports and is composed of employee performance and other class types such as Discipline and KPI.
     /// </summary>

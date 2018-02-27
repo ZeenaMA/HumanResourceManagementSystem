@@ -9,6 +9,7 @@ namespace HumanResourceManagementSystem.Models
     using System.Data.Entity;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Linq;
+
     /// <summary>
     /// Initializes a new instance of the DbContext class.
     /// </summary>

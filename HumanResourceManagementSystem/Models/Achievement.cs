@@ -10,10 +10,10 @@ namespace HumanResourceManagementSystem.Models
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
+    
     /// <summary>
     /// Achievement class is a construct with custom types, this class contains all the achivements of an employee.
     /// </summary>
-
     [Table("Achievement")]
     public partial class Achievement
     {
