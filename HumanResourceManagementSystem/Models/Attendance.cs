@@ -44,6 +44,6 @@ namespace HumanResourceManagementSystem.Models
 
         public virtual Employee Employee { get; set; }
 
-        public virtual Employee Employee1 { get; set; }
+        public virtual Employee Administrator { get; set; }
     }
 }

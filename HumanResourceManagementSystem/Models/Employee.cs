@@ -22,12 +22,12 @@ namespace HumanResourceManagementSystem.Models
         {
             Achievements = new HashSet<Achievement>();
             Attendances = new HashSet<Attendance>();
-            Attendances1 = new HashSet<Attendance>();
+            EmployeeAttendances = new HashSet<Attendance>();
             Certifications = new HashSet<Certification>();
             CommunicationSkills = new HashSet<CommunicationSkill>();
             Constituents = new HashSet<Constituent>();
             Evaluations = new HashSet<Evaluation>();
-            Evaluations1 = new HashSet<Evaluation>();
+            EmployeeEvaluations = new HashSet<Evaluation>();
             Experiences = new HashSet<Experience>();
             Networks = new HashSet<Network>();
             Performances = new HashSet<Performance>();
@@ -83,7 +83,7 @@ namespace HumanResourceManagementSystem.Models
         public virtual ICollection<Attendance> Attendances { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Attendance> Attendances1 { get; set; }
+        public virtual ICollection<Attendance> EmployeeAttendances { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Certification> Certifications { get; set; }
@@ -98,7 +98,7 @@ namespace HumanResourceManagementSystem.Models
         public virtual ICollection<Evaluation> Evaluations { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Evaluation> Evaluations1 { get; set; }
+        public virtual ICollection<Evaluation> EmployeeEvaluations { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Experience> Experiences { get; set; }

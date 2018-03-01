@@ -68,8 +68,8 @@ namespace HumanResourceManagementSystem.Models
                 .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Employee>()
-                .HasMany(e => e.Attendances1)
-                .WithRequired(e => e.Employee1)
+                .HasMany(e => e.EmployeeAttendances)
+                .WithRequired(e => e.Administrator)
                 .HasForeignKey(e => e.EmployeeId)
                 .WillCascadeOnDelete(false);
 
@@ -96,8 +96,8 @@ namespace HumanResourceManagementSystem.Models
                 .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Employee>()
-                .HasMany(e => e.Evaluations1)
-                .WithRequired(e => e.Employee1)
+                .HasMany(e => e.EmployeeEvaluations)
+                .WithRequired(e => e.Evaluator)
                 .HasForeignKey(e => e.EvaluatorId)
                 .WillCascadeOnDelete(false);
 
